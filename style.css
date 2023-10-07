@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root {
     scroll-behavior: smooth;
     font-size: 12px;
@@ -6,18 +5,12 @@
     --clr02: #AFD3E2;
     --clr03: #19A7CE;
     --clr04: #146C94;
-=======
-html {
-    scroll-behavior: smooth;
-    font-size: 12px;
->>>>>>> 7a8fd793d11119b1920a50b5a5804f306db1bf94
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
 }
 
 body {
@@ -102,6 +95,3 @@ body {
     border-radius: 10px;
 }
 
-=======
-}
->>>>>>> 7a8fd793d11119b1920a50b5a5804f306db1bf94
