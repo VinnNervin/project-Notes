@@ -1,0 +1,97 @@
+:root {
+    scroll-behavior: smooth;
+    font-size: 12px;
+    --clr01: #F6F1F1;
+    --clr02: #AFD3E2;
+    --clr03: #19A7CE;
+    --clr04: #146C94;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: var(--clr01);
+}
+
+.container {
+    background: red;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .notes-body {
+    background-color: purple;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.head-note {
+    position: absolute;
+    width: 100%;
+    /* background-color: yellow;        */
+    top: -30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 3;
+}
+
+.head-note .head-acc {
+    background-color: red;
+    height: 60px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+
+
+.note-box {
+    position: absolute;
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px 20px 20px;
+    z-index: 2;
+}
+
+.note-box textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.note-side {
+    /* background-color: green; */
+    position: absolute;
+    right: -30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    top: 50px;
+    height: 80%;
+    z-index: 1;
+}
+
+.note-side button {
+    width: 80px;
+    height: 50px;
+    border: none;
+    outline: 2px solid black;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
