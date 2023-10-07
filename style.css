@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    background: red;
+    background: rgb(160, 45, 45);
     height: 500px;
     width: 500px;
     display: flex;
