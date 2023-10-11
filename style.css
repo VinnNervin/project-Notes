@@ -88,11 +88,7 @@ body {
 
 }
 
-.note-01::after {
-    content: "";
-    height: 20px;
-    width: 20px;
-    background-color: red;
+.note-01 {
     z-index: 4;
 }
 
